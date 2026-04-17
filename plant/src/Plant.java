@@ -1,3 +1,11 @@
+public class Plant {
+    public static void main(String[] args){
+        rose r = new rose();
+        r.grow();
+        r.productflowers();
+        r.showDetails();
+    }
+}
 class plant{
     String name;
     void grow(){
@@ -14,14 +22,5 @@ class rose extends floweringplant{
         name="rose";
         System.out.println("plant name :"+name);
         System.out.println("rose is a flowering plant");
-    }
-}
-
-public class Plant {
-    public static void main(String[] args){
-        rose r = new rose();
-        r.grow();
-        r.productflowers();
-        r.showDetails();
     }
 }
